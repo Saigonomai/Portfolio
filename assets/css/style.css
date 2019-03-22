@@ -1,3 +1,56 @@
 .stan{
     height: 185pt;
 }
+.phone{
+    display: none;
+}
+
+.tablet{
+    display: none;
+}
+
+.tile{
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+
+img.img-fluid{
+    height: 100%;
+    width: 100%;
+}
+
+.backdrop{
+    background-color: #4B8FB2;
+}
+
+.textcol{
+    color: #FFA22C;
+}
+
+.titlecol{
+    color: #4B8FB2;
+}
+@media only screen and (max-width:768px) {
+    .laptop{
+        display: none;
+    }
+
+    .tablet{
+        display: block;
+    }
+}
+
+@media only screen and (max-width:640px) {
+    .laptop{
+        display: none;
+    }
+
+    .tablet{
+        display: none;
+    }
+
+    .phone{
+        display: block;
+    }
+
+}
